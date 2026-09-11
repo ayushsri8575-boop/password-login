@@ -10,6 +10,6 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     }
     document.getElementById("loginForm").style.display = "none";
     document.querySelector(".card h2").style.display = "none";
-    document.getElementById("greetingText").textContent = "Hello, " + usernameInput + "! Hello";
+    document.getElementById("greetingText").textContent = "Hello, " "! Hello";
     document.getElementById("welcomeBox").style.display = "block";
 });
